@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" />
+<title>Technical Documentation Page</title>
+  </head>
+
+
+  <body>
+    <nav id="navbar">
+      <header>C Programming Language Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#Features_of_C_Programming_Language"
+            >Features of C Programming Language</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#C_Programming_Language_Standard"
+            >C Programming Language Standard</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li>
+          <a class="nav-link" href="#Constants"
+            >Constants</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Scope_rules_in_C">Scope rules in C</a></li>
+        <li>
+          <a class="nav-link" href="#Global_variables">Global variables</a>
+        </li>
+        <li><a class="nav-link" href="#Basic_Input_and_Output_in_C">Basic Input and Output in C</a></li>
+     
+        <li><a class="nav-link" href="#Data_types">Data types</a></li>
+
+        <li><a class="nav-link"    href="#Operators_in_C">Operators in C</a></li>
+
+        <li>
+          <a class="nav-link" href="#Decision_Making_in_C"
+            >Decision Making in C</a
+          >
+        </li>
+        
+        <li>
+          <a class="nav-link" href="#C_Functions"
+            >C Functions</a
+          >
+        </li>
+
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>C is a procedural programming language initially developed by Dennis Ritchie in the year 1972 at Bell Laboratories of AT&T Labs. It was mainly developed as a system programming language to write the UNIX operating system.</p>
+          <p>The main features of the C language include:</p>
+          <ul>
+            <li>General Purpose and Portable</li>
+          <li>Low-level Memory Access</li>
+          <li>Fast Speed</li>
+          <li>Clean Syntax</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="Features_of_C_Programming_Language">
+        <header>Features of C Programming Language</header>
+        <article>
+          <p>C is a procedural programming language. It was initially developed by Dennis Ritchie in the year 1972. It was mainly developed as a system programming language to write an operating system.</p>
+        <p>
+The main features of C language include low-level access to memory, a simple set of keywords, and a clean style, these features make C language suitable for system programming like an operating system or compiler development.
+</p>
+<p>Here are some of the most important features of the C language:
+
+</p>
+<ul>
+<li>Procedural Language</li>
+<li>Fast and Efficient</li>
+<li>Modularity</li>
+<li>Statically Type</li>
+<li>General-Purpose Language</li>
+<li>Rich set of built-in Operators</li>
+<li>Libraries with Rich Functions</li>
+<li>Middle-Level Language</li>
+<li>Portability</li>
+<li>Easy to Extend</li>
+</ul>
+</article>
+      </section>
+
+      <section class="main-section" id="C_Programming_Language_Standard">
+        <header>C Programming Language Standard</header>
+        <article>
+          <p>The C programming language has several standard versions, with the most commonly used ones being C89/C90, C99, C11, and C18.</p>
+        
+<ul>
+<li>C89/C90 (ANSI C or ISO C) was the first standardized version of the language, released in 1989 and 1990, respectively. This standard introduced many of the features that are still used in modern C programming, including data types, control structures, and the standard library.</li>
+<li>C99 (ISO/IEC 9899:1999) introduced several new features, including variable-length arrays, flexible array members, complex numbers, inline functions, and designated initializers. This standard also includes several new library functions and updates to existing ones.</li>
+<li>C11 (ISO/IEC 9899:2011) introduced several new features, including _Generic, static_assert, and the atomic type qualifier. This standard also includes several updates to the library, including new functions for math, threads, and memory manipulation.</li>
+<li>C18 (ISO/IEC 9899:2018) is the most recent standard and includes updates and clarifications to the language specification and the library.</li>
+
+</ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="Hello_world">
+        <header>Hello world</header>
+        <article>
+          <p>To begin with, the “Hello World” program is the first step towards learning any programming language and also one of the simplest programs you will learn. All one needs to do is display the message “Hello World” on the screen. Let’s look at the program and try to understand the terminologies involved in it.</p>
+          <code>// Simple C program to display "Hello World"<br>
+
+// Header file for input output functions<br>
+#include < stdio.h ><br>
+
+// main function - where the execution of program begins<br>
+int main()<br>
+{
+
+	<br>
+	printf("Hello World");// prints hello world<br>
+  
+
+	return 0;<br>
+}
+</code>
+        </article>
+      </section>
+      <br>
+
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <article>
+          <p>A variable in C language is the name associated with some memory location to store data of different types. There are many types of variables in C depending on the scope, storage class, lifetime, type of data they store, etc. A variable is the basic building block of a C program that can be used in expressions as a substitute in place of the value it stores.</p>
+          <p>Example:</p>
+          <code>int var;    // integer variable<br>
+char a;     // character variable<br>
+float fff;  // float variables<br></code>
+        </article>
+      </section><br>
+
+      <section class="main-section" id="Constants">
+        <header>Constants</header>
+        <article>
+           <p>The constants in C are the read-only variables whose values cannot be modified once they are declared in the C program. The type of constant can be an integer constant, a floating pointer constant, a string constant, or a character constant. In C language, the const keyword is used to define the constants.</p>
+          <p>We define a constant in C language using the const keyword. Also known as a const type qualifier, the const keyword is placed at the start of the variable declaration to declare that variable as a constant.</p>
+          <code>Syntax to Define Constant:<br>
+const data_type var_name = value;</code>
+        </article>
+      </section><br>
+
+      <section class="main-section" id="Scope_rules_in_C">
+        <header>Scope rules in C</header>
+        <article>
+          <p>The scope of a variable in C is the block or the region in the program where a variable is declared, defined, and used. Outside this region, we cannot access the variable and it is treated as an undeclared identifier.</p>
+          <ul>
+            <li>The scope is the area under which a variable is visible.</li>
+            <li>The scope of an identifier is the part of the program where the identifier may directly be accessible.</li>
+            <li>We can only refer to a variable in its scope.</li>
+            <li>n C, all identifiers are lexically(or statically) scoped.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="Global_variables">
+        <header>Global variables</header>
+        <article>
+          <p>In a programming language, each variable has a particular scope attached to them. The scope is either local or global. This article will go through global variables, their advantages, and their properties.
+
+The Declaration of a global variable is very similar to that of a local variable. The only difference is that the global variable is declared outside any function. We can take an example by assuming that we have a chair at our house and one in our school/college then we can say that the chair at our home can only be accessed by the people living inside the home but the chair in our college can be used by any student or faculty.</p>
+        </article>
+      </section>
+
+      <section class="main-section" id="Basic_Input_and_Output_in_C">
+        <header>Basic Input and Output in C</header>
+        <article>
+          <p>C language has standard libraries that allow input and output in a program. The stdio.h or standard input output library in C that has methods for input and output.</p>
+
+<p>scanf():<br>
+The scanf() method, in C, reads the value from the console as per the type specified.</p>
+
+<p>printf():<br>
+The printf() method, in C, prints the value passed as the parameter to it, on the console screen.</p>
+
+        </article>
+      </section>
+
+      <section class="main-section" id="Data_types">
+        <header>Data types</header>
+        <article>
+          <p>Each variable in C has an associated data type. It specifies the type of data that the variable can store like integer, character, floating, double, etc. Each data type requires different amounts of memory and has some specific operations which can be performed over it. The data type is a collection of data with values having fixed values, meaning as well as its characteristics.</p>
+          <p>The data types in C can be classified as follows:</p>
+          <ul>
+            <li>Primitive Data Types:Primitive data types are the most basic data types that are used for representing simple values such as integers, float, characters, etc.</li>
+            <li>User Defined Data Types:The user-defined data types are defined by the user himself.</li>
+            <li>Derived Types:The data types that are derived from the primitive or built-in datatypes are referred to as Derived Data Types.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="Operators_in_C">
+        <header>Operators in C</header>
+        <article>
+          <p>C Operators are symbols that represent operations to be performed on one or more operands. C provides a wide range of operators, which can be classified into different categories based on their functionality. Operators are used for performing operations on variables and values.</p>
+          <p>Types of Operators in C:</p>
+          <ul>
+            <li>Arithmetic Operators</li>
+            <li>Relational Operators</li>
+            <li>Logical Operators</li>
+            <li>Bitwise Operators</li>
+            <li>Assignment Operators</li>
+            <li>Other Operators</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="Decision_Making_in_C">
+        <header>Decision Making in C</header>
+        <article>
+
+
+          <p>if in C:</p>
+          <p>The if statement is the most simple decision-making statement. It is used to decide whether a certain statement or block of statements will be executed or not i.e if a certain condition is true then a block of statements is executed otherwise not. </p>
+          <code>Syntax of if Statement<br>
+if(condition) <br>
+{
+   // Statements to execute if
+    condition is true<br>
+}</code>
+
+<p>if-else in C</p>
+          <p>The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won’t. But what if we want to do something else when the condition is false? Here comes the C else statement. We can use the else statement with the if statement to execute a block of code when the condition is false. The if-else statement consists of two blocks, one for false expression and one for true expression.</p>
+          <code>Syntax of if else in C:<br>
+if (condition)<br>
+{
+    // Executes this block if
+    condition is true
+}<br>
+else<br>
+{
+    // Executes this block if
+    condition is false
+}</code>
+        </article>
+      </section><br>
+
+      <section class="main-section" id="C_Functions">
+        <header>C Functions</header>
+        <article>
+          <p>A function in C is a set of statements that when called perform some specific task. It is the basic building block of a C program that provides modularity and code reusability. The programming statements of a function are enclosed within { } braces, having certain meanings and performing certain operations. They are also called subroutines or procedures in other languages.</p>
+          <code>Syntax:<br>
+          return_type name_of_the_function (parameter_1, parameter_2);<br>
+          Example:<br>int sum(int a, int b);<br>
+int sum(int , int);</code>
+        </article>
+      </section><br>
+
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <ul>
+            <li>
+              All the documentation in this page is taken from
+              <a
+                href="https://www.geeksforgeeks.org/c-language-introduction/?ref=lbp"
+                target="_blank"
+                >GFG</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+
+
+    </main>
+  </body>
+
+
+</html>
